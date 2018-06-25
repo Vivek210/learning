@@ -1,0 +1,18 @@
+the work performed to learn the git and github
+
+
+1->create a central repository on github
+2-> create a simple folder in  local machine and open git bash there
+4-> git init is the first command for initialize the git
+3-> connect the local repossitory(folder) to the remote repository using this command
+
+	 git remote add origin "git remote repository link"
+	 
+4-> puu the record from the central repository using this command
+	
+	 git pull origin master
+	 
+5-> add the wordone.txt file in local repository(index)
+6-> use the command for the status of the index files
+		
+	 git status
