@@ -35,4 +35,30 @@ the work performed to learn the git and github
 11-> add all the files in local repository(index) using
 
 	git commit -a -m "add onother 2 files"
+	
+12-> to create a new branch called firstbranch using this command
+
+	git branch firstbranch
+	
+13-> to go to firstbranch or change the branch use this command
+
+	gii checkout firstbranch
+	
+14-> in firstbranch we create a file wd4 and add and commit to the firstbranch 
+15-> we can see all the files in the branch using "ls" command 
+
+		so in firstbranch we saw all the files including wd4.txt but in master branch 
+			we can see al the files except wd4.txt because it is created in firstbranch only
+			
+16-> we used the merge command for the merginf the branch for different functionalities and some
+		thing like that so here we merge the firstbranch to the master branch and for that 
+		we have to mergefirst branch to master so we have to go in the maste branch and command
+		are like that
+		
+		git checkout master
+		git merge firstbranch
+		
+		and now we can see the wd4.txt which is created in firstbranch also seen in the master
+		branch using ls coomand we can see it
+	
 
