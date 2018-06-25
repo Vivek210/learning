@@ -66,5 +66,8 @@ the work performed to learn the git and github
 	pull ->get all the new and modified files to the master branch
 	fetch - > get all the new and modified files in the new branch so we have to merge that branch
 			 with the master branch
+			 
+18-> we created wd5 and wd6.txt in the firstbranch and add and commit to the local repository 
+		with the messaage of the "adding for rebase"
 	
 
