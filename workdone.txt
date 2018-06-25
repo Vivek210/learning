@@ -16,3 +16,23 @@ the work performed to learn the git and github
 6-> use the command for the status of the index files
 		
 	 git status
+	 
+	 that shows that workdone.txt is untracked filesnthat means it is on folder but not 
+	 added to the local repository so we have to add it first
+	 
+7-> git add workdone.txt
+
+8-> then we have to commit the file in local repository using this command
+
+	git commmit -m "this is the first commit to the local repository
+	
+9-> then we created 2 other files like wd2 and wd3 in our folder and use command git status
+
+10-> add all the files and folder in the local repository using this command
+  
+     git add -A
+	 
+11-> add all the files in local repository(index) using
+
+	git commit -a -m "add onother 2 files"
+
