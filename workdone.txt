@@ -60,5 +60,11 @@ the work performed to learn the git and github
 		
 		and now we can see the wd4.txt which is created in firstbranch also seen in the master
 		branch using ls coomand we can see it
+		
+17->  git pull   = = git fetch + git merge
+
+	pull ->get all the new and modified files to the master branch
+	fetch - > get all the new and modified files in the new branch so we have to merge that branch
+			 with the master branch
 	
 
