@@ -99,3 +99,22 @@ the work performed to learn the git and github
 21->   same command for the push the code in master branch also 
 		
 		git push origin master
+		
+22 -->  for revert back 
+
+
+		use command the 
+			git log 
+			
+			
+			and find the message that we want to revert back of the file 
+			
+			copy the first 8 character from the commit hash and use this command 
+			
+			git checkout cb1f34f7 revert_back.txt
+			
+			and then commit the changes
+			
+			
+			
+			
