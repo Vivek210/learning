@@ -69,5 +69,33 @@ the work performed to learn the git and github
 			 
 18-> we created wd5 and wd6.txt in the firstbranch and add and commit to the local repository 
 		with the messaage of the "adding for rebase"
-	
+		
+		git rebase firstbranch
+		
+		it is same as merge just it done work in linear way 
+		
+		now we can see wd5 and wd6.txt in master branch also because of rebase because it is 
+		same as merge
 
+19-> we create a ssh key for the ssh request so no one can push iin this repository
+		
+		ssh-keygen
+		
+		we can see the ssh key using this command
+			
+			cat  /c/Users/user/.ssh/id_rsa.pub
+	
+		and go to setting and in setting ssh and gps key -> add the ssh key and then use command 
+		to authenticate us from github 
+		
+		ssh -T git@github.com
+20->
+			
+		now we want that out all data of firstbranch is also available in central repository so we
+		go to the firstbranch and use this command
+		
+		git push origin firstbranch
+		
+21->   same command for the push the code in master branch also 
+		
+		git push origin master
